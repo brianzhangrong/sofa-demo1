@@ -1,3 +1,22 @@
-2021-01-18 15:31:55,866 INFO  main                             - SOFABoot Runtime Starting!
-2021-01-18 16:42:54,411 INFO  main                             - SOFABoot Runtime Starting!
-2021-01-18 17:11:12,816 INFO  main                             - SOFABoot Runtime Starting!
+2021-01-19 10:59:17,720 INFO  main                             - SOFABoot Runtime Starting!
+2021-01-19 10:59:20,236 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo1 Start +++++++++++++++++
+2021-01-19 10:59:20,243 INFO  main                             - ++++++++++++++++++ ModelCreatingStage of demo1 End +++++++++++++++++
+2021-01-19 10:59:20,243 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo1 Start +++++++++++++++++
+2021-01-19 10:59:20,243 INFO  main                             - 
+All unactivated module list(1) >>>>>>>
+  └─ com.ihomefnt.ark.demo1
+
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2021-01-19 10:59:20,244 INFO  main                             - ++++++++++++++++++ SpringContextInstallStage of demo1 End +++++++++++++++++
+2021-01-19 10:59:20,244 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo1 Start +++++++++++++++++
+2021-01-19 10:59:20,244 INFO  main                             - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2021-01-19 10:59:20,244 INFO  main                             - ++++++++++++++++++ ModuleLogOutputStage of demo1 End +++++++++++++++++
