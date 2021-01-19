@@ -43,6 +43,10 @@
 			<groupId>com.alipay.sofa</groupId>
 			<artifactId>runtime-sofa-boot-starter</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>isle-sofa-boot</artifactId>
+		</dependency>
 	</dependencies>
 
 	<profiles>
@@ -76,10 +80,6 @@
 
 	<build>
 		<plugins>
-<!--			<plugin>-->
-<!--				<groupId>org.springframework.boot</groupId>-->
-<!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--			</plugin>-->
 			<plugin>
 				<groupId>com.alipay.sofa</groupId>
 				<artifactId>sofa-ark-maven-plugin</artifactId>
@@ -98,10 +98,6 @@
 <!--					<mainClass>com.ihomefnt.ark.demo.Demo1Application</mainClass>-->
 				</configuration>
 			</plugin>
-<!--			<plugin>-->
-<!--				<groupId>org.springframework.boot</groupId>-->
-<!--				<artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--			</plugin>-->
 		</plugins>
 	</build>
 
