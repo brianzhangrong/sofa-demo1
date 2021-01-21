@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.alipay.sofa</groupId>
     <artifactId>sofaboot-dependencies</artifactId>
-    <version>3.4.6</version>
+    <version>3.2.2</version>
   </parent>
   <groupId>com.ihomefnt.ark</groupId>
   <artifactId>demo1</artifactId>
@@ -22,6 +22,10 @@
     <dependency>
       <groupId>com.alipay.sofa</groupId>
       <artifactId>runtime-sofa-boot-plugin</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.alipay.sofa</groupId>
+      <artifactId>runtime-sofa-boot-starter</artifactId>
     </dependency>
     <dependency>
       <groupId>com.alipay.sofa</groupId>
@@ -46,10 +50,15 @@
       <artifactId>spring-boot-test</artifactId>
       <scope>test</scope>
     </dependency>
-
     <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
+      <groupId>com.alipay.sofa</groupId>
+      <artifactId>sofa-ark-all</artifactId>
+      <version>${sofa.ark.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alipay.sofa</groupId>
+      <artifactId>config-ark-plugin</artifactId>
+      <version>${sofa.ark.version}</version>
     </dependency>
   </dependencies>
 
